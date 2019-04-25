@@ -1,2 +1,2 @@
-# vue简洁版开发模版
-使用ESlint Airbnb规范
+# Vue严格版开发模版
+使用`ESlint Airbnb`规范
