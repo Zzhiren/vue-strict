@@ -1,0 +1,21 @@
+/*定位*/
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.bc{margin-left:auto;margin-right:auto;}/*全称是“。blockCenter”，作用为使块级元素居中。直接试用她是不能使块级元素居中的，还需设定宽度。*/
+.fl{float:left;display:inline;}/*设置display：inline 为了解决IE6的双外边距bug。在IE6下，如果对元素设置了浮动，同时设置了margin-left或者margin-right，margin值会加倍，如设置margin-left：10px在IE6下会显示为margin-left：20px。解决办法就是设置display：inline。*/
+.fr{float:right;display:inline;}
+.cb{clear:both;}
+.cl{clear:left;}
+.cr{clear:right;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{display:inline-block;}/*用于在父容器直接清除子元素浮动。*/
+*html .clearfix{height:1%;}/*只在IE6中生效*/
+.Clearfix{display:block;}
+.vm{vertical-align:middle;}
+.pr{position:relative;}
+.pa{position:relative;}
+.abs-right{position:absolute;right:0;}
+.zoom{zoom:1;}/*(IE特有属性)触发hasLayout*/
+.hidden{visibility:hidden;}
+.none{display:none;}
